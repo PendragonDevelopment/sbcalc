@@ -18,7 +18,7 @@ $(document).ready(function(){
 		indHours = $('.hours');
 		indHours.each(function(){
 			tiphrs = this.value;
-			tipval = (tiphrs*tipRate) - 1;
+			tipval = (tiphrs*tipRate);
 			console.log(tipval);
 			span = $(this).parent().next().find('.tips');
 			console.log(span)
